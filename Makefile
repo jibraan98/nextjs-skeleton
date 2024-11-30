@@ -30,5 +30,5 @@ docker-reset:
 
 # Initialize project (removes .git)
 docker-init:
-	rm -rg .git
+	rm -rf .git
 	@echo ".git directory removed."
