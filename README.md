@@ -34,3 +34,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+To get started locally:
+1. Clone the skeleton repo
+   - git clone https://github.com/your-username/nextjs-skeleton.git my-new-project
+
+   - cd my-new-project
+
+2. Remove the existing .git folder
+   - rm -rf .git
+
+3. Reinitialize Git and push to a new repo
+   - git init
+   - git add .
+   - git commit -m "Initialize new project"
+   - git remote add origin https://github.com/your-username/my-new-project.git
+   - git branch -M main
+   - git push -u origin main
