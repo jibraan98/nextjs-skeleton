@@ -42,7 +42,7 @@ To get started locally:
    - cd my-new-project
 
 2. Remove the existing .git folder
-   - rm -rf .git
+   - make docker-init
 
 3. Reinitialize Git and push to a new repo
    - git init
