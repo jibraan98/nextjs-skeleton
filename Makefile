@@ -27,3 +27,8 @@ docker-reset:
 	rm -rf node_modules package-lock.json
 	# Install dependencies
 	npm install
+
+# Initialize project (removes .git)
+docker-init:
+	rm -rg .git
+	@echo ".git directory removed."
